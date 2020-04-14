@@ -12,7 +12,7 @@
 
 using namespace std;
 
-class System: Circle, Trapeze, CVector2D{
+class System{
 public:
     CVector2D *centreMass = new CVector2D (0.0,0.0);
 
