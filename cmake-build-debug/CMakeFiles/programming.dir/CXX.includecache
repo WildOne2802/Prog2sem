@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/napenshe/CLionProjects/programming/Lab4/PROGTASK4_6.cpp
+iostream
+-
+vector
+-
+task4_6.h
+/Users/napenshe/CLionProjects/programming/Lab4/task4_6.h
+
+/Users/napenshe/CLionProjects/programming/Lab4/task4_6.cpp
+task4_6.h
+/Users/napenshe/CLionProjects/programming/Lab4/task4_6.h
+iostream
+-
+vector
+-
+cmath
+-
+
+/Users/napenshe/CLionProjects/programming/Lab4/task4_6.h
+vector
+-
+

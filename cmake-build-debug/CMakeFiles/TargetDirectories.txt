@@ -1,0 +1,8 @@
+/Users/napenshe/CLionProjects/programming/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/napenshe/CLionProjects/programming/cmake-build-debug/CMakeFiles/lab10.1.dir
+/Users/napenshe/CLionProjects/programming/cmake-build-debug/CMakeFiles/Lab67.dir
+/Users/napenshe/CLionProjects/programming/cmake-build-debug/CMakeFiles/Lab9.dir
+/Users/napenshe/CLionProjects/programming/cmake-build-debug/CMakeFiles/Lab5.dir
+/Users/napenshe/CLionProjects/programming/cmake-build-debug/CMakeFiles/Lab8.dir
+/Users/napenshe/CLionProjects/programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/napenshe/CLionProjects/programming/cmake-build-debug/CMakeFiles/programming.dir

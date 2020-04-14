@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/napenshe/CLionProjects/programming/Lab 10.1/Lab10.cpp
+iostream
+-
+cmath
+-
+ctime
+-
+iterator
+-
+vector
+-
+fstream
+-
+algorithm
+-
+

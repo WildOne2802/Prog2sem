@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="programming"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10.1">
+				<Option output="/Users/napenshe/CLionProjects/programming/cmake-build-debug/lab10.1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/include/libxml++-2.6"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/lib/libxml++-2.6/include"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/include/glibmm-2.4"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/lib/glibmm-2.4/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/opt/gettext/include"/>
+					<Add directory="/usr/local/Cellar/pcre/8.43/include"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/include/sigc++-2.0"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/lib/sigc++-2.0/include"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab10.1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab10.1/fast">
+				<Option output="/Users/napenshe/CLionProjects/programming/cmake-build-debug/lab10.1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/include/libxml++-2.6"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/lib/libxml++-2.6/include"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/include/glibmm-2.4"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/lib/glibmm-2.4/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/opt/gettext/include"/>
+					<Add directory="/usr/local/Cellar/pcre/8.43/include"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/include/sigc++-2.0"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/lib/sigc++-2.0/include"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab10.1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab67">
+				<Option output="/Users/napenshe/CLionProjects/programming/cmake-build-debug/Lab67" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/include/libxml++-2.6"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/lib/libxml++-2.6/include"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/include/glibmm-2.4"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/lib/glibmm-2.4/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/opt/gettext/include"/>
+					<Add directory="/usr/local/Cellar/pcre/8.43/include"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/include/sigc++-2.0"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/lib/sigc++-2.0/include"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab67"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab67/fast">
+				<Option output="/Users/napenshe/CLionProjects/programming/cmake-build-debug/Lab67" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/include/libxml++-2.6"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/lib/libxml++-2.6/include"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/include/glibmm-2.4"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/lib/glibmm-2.4/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/opt/gettext/include"/>
+					<Add directory="/usr/local/Cellar/pcre/8.43/include"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/include/sigc++-2.0"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/lib/sigc++-2.0/include"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab67/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab9">
+				<Option output="/Users/napenshe/CLionProjects/programming/cmake-build-debug/Lab9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/include/libxml++-2.6"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/lib/libxml++-2.6/include"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/include/glibmm-2.4"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/lib/glibmm-2.4/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/opt/gettext/include"/>
+					<Add directory="/usr/local/Cellar/pcre/8.43/include"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/include/sigc++-2.0"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/lib/sigc++-2.0/include"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab9"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab9/fast">
+				<Option output="/Users/napenshe/CLionProjects/programming/cmake-build-debug/Lab9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/include/libxml++-2.6"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/lib/libxml++-2.6/include"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/include/glibmm-2.4"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/lib/glibmm-2.4/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/opt/gettext/include"/>
+					<Add directory="/usr/local/Cellar/pcre/8.43/include"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/include/sigc++-2.0"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/lib/sigc++-2.0/include"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab9/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab5">
+				<Option output="/Users/napenshe/CLionProjects/programming/cmake-build-debug/Lab5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/include/libxml++-2.6"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/lib/libxml++-2.6/include"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/include/glibmm-2.4"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/lib/glibmm-2.4/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/opt/gettext/include"/>
+					<Add directory="/usr/local/Cellar/pcre/8.43/include"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/include/sigc++-2.0"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/lib/sigc++-2.0/include"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab5/fast">
+				<Option output="/Users/napenshe/CLionProjects/programming/cmake-build-debug/Lab5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/include/libxml++-2.6"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/lib/libxml++-2.6/include"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/include/glibmm-2.4"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/lib/glibmm-2.4/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/opt/gettext/include"/>
+					<Add directory="/usr/local/Cellar/pcre/8.43/include"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/include/sigc++-2.0"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/lib/sigc++-2.0/include"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab8">
+				<Option output="/Users/napenshe/CLionProjects/programming/cmake-build-debug/Lab8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/include/libxml++-2.6"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/lib/libxml++-2.6/include"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/include/glibmm-2.4"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/lib/glibmm-2.4/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/opt/gettext/include"/>
+					<Add directory="/usr/local/Cellar/pcre/8.43/include"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/include/sigc++-2.0"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/lib/sigc++-2.0/include"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab8"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab8/fast">
+				<Option output="/Users/napenshe/CLionProjects/programming/cmake-build-debug/Lab8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/include/libxml++-2.6"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/lib/libxml++-2.6/include"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/include/glibmm-2.4"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/lib/glibmm-2.4/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/opt/gettext/include"/>
+					<Add directory="/usr/local/Cellar/pcre/8.43/include"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/include/sigc++-2.0"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/lib/sigc++-2.0/include"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab8/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="programming">
+				<Option output="/Users/napenshe/CLionProjects/programming/cmake-build-debug/programming" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/include/libxml++-2.6"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/lib/libxml++-2.6/include"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/include/glibmm-2.4"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/lib/glibmm-2.4/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/opt/gettext/include"/>
+					<Add directory="/usr/local/Cellar/pcre/8.43/include"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/include/sigc++-2.0"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/lib/sigc++-2.0/include"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 programming"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="programming/fast">
+				<Option output="/Users/napenshe/CLionProjects/programming/cmake-build-debug/programming" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/napenshe/CLionProjects/programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/include/libxml++-2.6"/>
+					<Add directory="/usr/local/Cellar/libxml++/2.40.1/lib/libxml++-2.6/include"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/include/glibmm-2.4"/>
+					<Add directory="/usr/local/Cellar/glibmm/2.60.0/lib/glibmm-2.4/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/include/glib-2.0"/>
+					<Add directory="/usr/local/Cellar/glib/2.60.2/lib/glib-2.0/include"/>
+					<Add directory="/usr/local/opt/gettext/include"/>
+					<Add directory="/usr/local/Cellar/pcre/8.43/include"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/include/sigc++-2.0"/>
+					<Add directory="/usr/local/Cellar/libsigc++/2.10.1/lib/sigc++-2.0/include"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 programming/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/napenshe/CLionProjects/programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab 10.1/Lab10.cpp">
+			<Option target="lab10.1"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab 6,7/main.cpp">
+			<Option target="Lab67"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab 6,7/matrix.h">
+			<Option target="Lab67"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab 8/main.cpp">
+			<Option target="Lab8"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab 9/main.cpp">
+			<Option target="Lab9"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab4/PROGTASK4_6.cpp">
+			<Option target="programming"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab4/task4_6.cpp">
+			<Option target="programming"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab4/task4_6.h">
+			<Option target="programming"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab5/BaseCObject.hpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab5/CVector2D.hpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab5/Circle.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab5/Circle.hpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab5/IDialogInitable.hpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab5/IGeoFig.hpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab5/IPhysObject.hpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab5/IPrintable.hpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab5/System.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab5/System.hpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab5/Trapeze.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab5/Trapeze.hpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/Lab5/main.cpp">
+			<Option target="Lab5"/>
+		</Unit>
+		<Unit filename="/Users/napenshe/CLionProjects/programming/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

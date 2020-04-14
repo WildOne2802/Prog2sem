@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/napenshe/CLionProjects/programming/Lab 6,7/main.cpp
+iostream
+-
+matrix.h
+/Users/napenshe/CLionProjects/programming/Lab 6,7/matrix.h
+
+/Users/napenshe/CLionProjects/programming/Lab 6,7/matrix.h
+exception
+-
+

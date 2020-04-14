@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/napenshe/CLionProjects/programming/Lab 10/Lab10.cpp
+iostream
+-
+stack
+-
+TREE.h
+/Users/napenshe/CLionProjects/programming/Lab 10/TREE.h
+
+/Users/napenshe/CLionProjects/programming/Lab 10/TREE.h
+iostream
+-
+stack
+-
+algorithm
+-
+exception
+-
+
