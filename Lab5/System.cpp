@@ -13,15 +13,15 @@
 using namespace std;
 
 void System::showAll() {
-    cout<<"Here are your Circles\n";
-    for (Circle c : circleArray){
+    cout << "Here are your Circles\n";
+    for (Circle c : circleArray) {
         c.draw();
-        cout<<endl;
+        cout << endl;
     }
-    cout<<"Here are your Trapezes\n";
-    for (Trapeze t: trapezeArray){
+    cout << "Here are your Trapezes\n";
+    for (Trapeze t: trapezeArray) {
         t.draw();
-        cout<<endl;
+        cout << endl;
     }
 }
 
@@ -55,7 +55,7 @@ void System::showSummPerimeter() {
         perimeter += c.perimeter();
     for (Trapeze t : trapezeArray)
         perimeter += t.perimeter();
-    cout<<"Here is summ of perimeters of all figures: "<<perimeter<<endl;
+    cout << "Here is summ of perimeters of all figures: " << perimeter << endl;
 }
 
 void System::showSummSquare() {
@@ -64,7 +64,7 @@ void System::showSummSquare() {
         square += c.square();
     for (Trapeze t : trapezeArray)
         square += t.square();
-    cout<<"Here is summ of squares of all figures: "<<square<<endl;
+    cout << "Here is summ of squares of all figures: " << square << endl;
 }
 
 void System::showSummSize() {
@@ -73,14 +73,14 @@ void System::showSummSize() {
         size += c.size();
     for (Trapeze t : trapezeArray)
         size += t.size();
-    cout<<"Here is summ of sizes of all figures: "<<size<<endl;
+    cout << "Here is summ of sizes of all figures: " << size << endl;
 
 }
 
 void System::sortByMass() {
     int j = 0;
     Circle tmp;
-    for(int i=0; i<circleArray.size(); i++) {
+    for (int i = 0; i < circleArray.size(); i++) {
         j = i;
         for (int k = i; k < circleArray.size(); k++) {
             if (circleArray[j].mass() > circleArray[k].mass()) {
@@ -91,11 +91,11 @@ void System::sortByMass() {
         circleArray[i] = circleArray[j];
         circleArray[j] = tmp;
     };
-    cout<<"Circles are sorted"<<endl<<endl;
+    cout << "Circles are sorted" << endl << endl;
 
-    j=0;
+    j = 0;
     Trapeze tmp1;
-    for(int i=0; i<trapezeArray.size(); i++) {
+    for (int i = 0; i < trapezeArray.size(); i++) {
         j = i;
         for (int k = i; k < trapezeArray.size(); k++) {
             if (trapezeArray[j].mass() > trapezeArray[k].mass()) {
@@ -106,7 +106,7 @@ void System::sortByMass() {
         trapezeArray[i] = trapezeArray[j];
         trapezeArray[j] = tmp1;
     }
-    cout<<"Trapezes are sorted"<<endl<<endl;
+    cout << "Trapezes are sorted" << endl << endl;
 
 }
 
@@ -115,27 +115,25 @@ void System::showCentreMass() {
     double summMassMultPositionY = 0;
     double summMass = 0;
 
-    for (Trapeze t : trapezeArray)
-    {
+    for (Trapeze t : trapezeArray) {
         summMass += t.mass();
         summMassMultPositionX += t.mass() * t.position().x;
         summMassMultPositionY += t.mass() * t.position().y;
     }
 
-    for (Circle c : circleArray)
-    {
+    for (Circle c : circleArray) {
         summMass += c.mass();
         summMassMultPositionX += c.mass() * c.position().x;
         summMassMultPositionY += c.mass() * c.position().y;
     }
 
-    centreMass->x = summMassMultPositionX/summMass;
-    centreMass->y = summMassMultPositionY/summMass;
+    centreMass->x = summMassMultPositionX / summMass;
+    centreMass->y = summMassMultPositionY / summMass;
 
-    cout<<"Here are coordinates of Mass Centre of your system\n";
+    cout << "Here are coordinates of Mass Centre of your system\n";
 
-    cout<<"x: "<<centreMass->x<<endl;
-    cout<<"y:"<<centreMass->y<<endl;
+    cout << "x: " << centreMass->x << endl;
+    cout << "y:" << centreMass->y << endl;
 
 
 }

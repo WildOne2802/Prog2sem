@@ -17,25 +17,39 @@
 #include "BaseCObject.hpp"
 
 #include <stdio.h>
-class Trapeze : IPhysObject,IGeoFig,IPrintable,IDialogInitiable,BaseCObject{
+
+class Trapeze : IPhysObject, IGeoFig, IPrintable, IDialogInitiable, BaseCObject {
 public:
     CVector2D left_top_corner, left_bottom_corner, right_top_corner, right_bottom_corner;
-    double height,top_line, bottom_line, mas;
-    
+    double height, top_line, bottom_line, mas;
+
     Trapeze();
-    Trapeze(CVector2D &left_top_corner, CVector2D &left_bottom_corner, CVector2D &right_top_corner, CVector2D &right_bottom_corner, double &mas);
+
+    Trapeze(CVector2D &left_top_corner, CVector2D &left_bottom_corner, CVector2D &right_top_corner,
+            CVector2D &right_bottom_corner, double &mas);
+
     ~Trapeze();
-    
+
     const char *classname();
+
     unsigned int size();
+
     void initFromDialog();
+
     double square();
+
     double perimeter();
+
     CVector2D position();
+
     double mass();
-    bool operator == (IPhysObject &ob);
-    bool operator < (IPhysObject &ob);
+
+    bool operator==(IPhysObject &ob);
+
+    bool operator<(IPhysObject &ob);
+
     void draw();
-    
+
 };
+
 #endif /* Trapeze_hpp */

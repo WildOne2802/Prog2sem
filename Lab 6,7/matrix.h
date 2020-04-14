@@ -9,9 +9,10 @@
 
 using namespace std;
 
-class matrix_exception : public exception {};
+class matrix_exception : public exception {
+};
 
-class matrix_element_doesnt_exist: matrix_exception {
+class matrix_element_doesnt_exist : matrix_exception {
 
 public:
     virtual const char *what() const throw() {
@@ -19,7 +20,8 @@ public:
     }
 };
 
-template <class T, int N, int M> class matrix{
+template<class T, int N, int M>
+class matrix {
 
     T data[N][M];
     int sizeN = N;
@@ -27,8 +29,8 @@ template <class T, int N, int M> class matrix{
 
 public:
 
-    T & address(int a ,int b){
-        if (a>=N || a<0  || b>=M || b<0)
+    T &address(int a, int b) {
+        if (a >= N || a < 0 || b >= M || b < 0)
             throw new matrix_element_doesnt_exist();
         return data[a][b];
     }

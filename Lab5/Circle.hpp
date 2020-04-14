@@ -12,25 +12,36 @@
 #include "IDialogInitable.hpp"
 #include "BaseCObject.hpp"
 
-class Circle : IPhysObject,IGeoFig,IPrintable,IDialogInitiable,BaseCObject,CVector2D {
+class Circle : IPhysObject, IGeoFig, IPrintable, IDialogInitiable, BaseCObject {
 public:
     CVector2D centre;
     double radius;
     double mas;
 
-    Circle ();
-    Circle (CVector2D &centre, double &radius);
-    ~Circle ();
+    Circle();
+
+    Circle(CVector2D &centre, double &radius);
+
+    ~Circle();
 
     const char *classname();
+
     unsigned int size();
+
     void initFromDialog();
+
     double square();
+
     double perimeter();
+
     CVector2D position();
+
     double mass();
-    bool operator == (IPhysObject &ob);
-    bool operator < (IPhysObject &ob);
+
+    bool operator==(IPhysObject &ob);
+
+    bool operator<(IPhysObject &ob);
+
     void draw();
 
 };

@@ -12,18 +12,25 @@
 
 using namespace std;
 
-class System{
+class System {
 public:
-    CVector2D *centreMass = new CVector2D (0.0,0.0);
+    CVector2D *centreMass = new CVector2D(0.0, 0.0);
 
-    vector <Circle> circleArray;
-    vector <Trapeze> trapezeArray;
+    vector<Circle> circleArray;
+    vector<Trapeze> trapezeArray;
+
     void addFigure();
+
     void showAll();
+
     void showSummSquare();
+
     void showSummPerimeter();
+
     void showSummSize();
+
     void sortByMass();
+
     void showCentreMass();
 
 };

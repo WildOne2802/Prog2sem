@@ -10,6 +10,7 @@
 #include "Trapeze.hpp"
 #include "Circle.hpp"
 #include "System.hpp"
+
 using namespace std;
 
 int main() {
@@ -34,5 +35,5 @@ int main() {
 
     system.showCentreMass();        //Центр масс всей системы.
 
-   return 0;
+    return 0;
 }

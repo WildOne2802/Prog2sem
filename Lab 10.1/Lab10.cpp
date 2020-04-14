@@ -15,9 +15,14 @@ using namespace std;
 #define AVLSET_DELETE 0
 #define AVLSET_ADD 1
 
-template<typename ValueType, class Compare> class AVLSetItem;
-template<typename ValueType, class Compare> class AVLSet;
-template<typename ValueType, class Compare> class AVLSetIterator;
+template<typename ValueType, class Compare>
+class AVLSetItem;
+
+template<typename ValueType, class Compare>
+class AVLSet;
+
+template<typename ValueType, class Compare>
+class AVLSetIterator;
 
 template<typename ValueType, class Compare = std::less<ValueType>>
 class AVLSet {
@@ -38,16 +43,24 @@ public:
     ~AVLSet();
 
     iterator Insert(const value_type &key);
+
     iterator Remove(const value_type &key);
+
     iterator Clear();
+
     iterator Find(const value_type &key);
+
     const_iterator Find(const value_type &key) const;
+
     iterator begin() const;
+
     const_iterator cbegin();
+
     iterator end() const;
+
     const_iterator cend();
 
-    template <class InputIt>
+    template<class InputIt>
     int Assign(InputIt first, InputIt last);
 
     const Item *Root();
@@ -56,11 +69,17 @@ public:
 
 private:
     Item *FindKey(value_type const &key);
+
     void Balance(Item *par, int mode);
+
     void BalanceRecalculate(Item *par);
+
     Item *LeftSmallRotate(Item *par);
+
     Item *LeftBigRotate(Item *par);
+
     Item *RightSmallRotate(Item *par);
+
     Item *RightBigRotate(Item *par);
 
     Compare Comp;
@@ -77,7 +96,9 @@ class AVLSetItem {
 public:
 
     friend class AVLSet<ValueType, Compare>;
+
     friend class AVLSetIterator<ValueType, Compare>;
+
     typedef AVLSetItem<ValueType, Compare> Item;
     typedef ValueType value_type;
     typedef AVLSetIterator<ValueType, Compare> iterator;
@@ -108,26 +129,34 @@ template<typename ValueType, class Compare = std::less<ValueType>>
 class AVLSetIterator : public std::iterator<std::bidirectional_iterator_tag, ValueType> {
 public:
     friend class AVLSet<ValueType, Compare>;
+
     friend class AVLSetItem<ValueType, Compare>;
 
     typedef ValueType value_type;
     typedef AVLSetIterator<ValueType, Compare> iterator;
     typedef AVLSetIterator<ValueType, Compare> const_iterator;
-    typedef AVLSetItem<ValueType , Compare> Item;
+    typedef AVLSetItem<ValueType, Compare> Item;
 
     explicit AVLSetIterator(Item *ptr);
 
     AVLSetIterator(iterator const &other);
+
     ~AVLSetIterator() = default;
 
     bool operator!=(iterator const &other) const;
+
     bool operator==(iterator const &other) const;
 
     ValueType operator*() const;
+
     ValueType const &operator*();
+
     AVLSetIterator &operator++();
+
     AVLSetIterator operator++(int);
+
     AVLSetIterator &operator--();
+
     AVLSetIterator operator--(int);
 
 private:
@@ -159,7 +188,7 @@ ValueType AVLSetIterator<ValueType, Compare>::operator*() const {
 }
 
 template<typename ValueType, class Compare>
-ValueType const &AVLSetIterator<ValueType, Compare>::operator*()  {
+ValueType const &AVLSetIterator<ValueType, Compare>::operator*() {
     return item_ptr_->key_;
 }
 
@@ -218,9 +247,8 @@ typename AVLSetItem<ValueType, Compare>::Item *AVLSetItem<ValueType, Compare>::F
             item_ptr = item_ptr->left_;
 
         return item_ptr;
-    }
-
-    else while (item_ptr->parent_ != nullptr) {
+    } else
+        while (item_ptr->parent_ != nullptr) {
             if (item_ptr == item_ptr->parent_->left_)
                 return item_ptr->parent_;
 
@@ -241,9 +269,8 @@ typename AVLSetItem<ValueType, Compare>::Item *AVLSetItem<ValueType, Compare>::F
             item_ptr = item_ptr->right_;
 
         return item_ptr;
-    }
-
-    else while (item_ptr->parent_ != nullptr) {
+    } else
+        while (item_ptr->parent_ != nullptr) {
             if (item_ptr == item_ptr->parent_->right_)
                 return item_ptr->parent_;
 
@@ -293,9 +320,7 @@ typename AVLSet<ValueType, Compare>::iterator AVLSet<ValueType, Compare>::Insert
         cbegin_.item_ptr_ = root_;
 
         return iterator(root_);
-    }
-
-    else if (key != par->key_) {
+    } else if (key != par->key_) {
         ++size_;
         Item *node = new Item(key);
 
@@ -311,9 +336,7 @@ typename AVLSet<ValueType, Compare>::iterator AVLSet<ValueType, Compare>::Insert
 
         Balance(par, AVLSET_ADD);
         return iterator(node);
-    }
-
-    else return iterator(nullptr);
+    } else return iterator(nullptr);
 }
 
 template<typename ValueType, class Compare>
@@ -402,7 +425,7 @@ typename AVLSet<ValueType, Compare>::const_iterator AVLSet<ValueType, Compare>::
 }
 
 template<typename ValueType, class Compare>
-typename AVLSet<ValueType, Compare>::iterator AVLSet<ValueType, Compare>::begin() const{
+typename AVLSet<ValueType, Compare>::iterator AVLSet<ValueType, Compare>::begin() const {
     return begin_;
 }
 
@@ -412,12 +435,12 @@ typename AVLSet<ValueType, Compare>::const_iterator AVLSet<ValueType, Compare>::
 }
 
 template<typename ValueType, class Compare>
-typename  AVLSet<ValueType, Compare>::iterator AVLSet<ValueType, Compare>::end() const{
+typename AVLSet<ValueType, Compare>::iterator AVLSet<ValueType, Compare>::end() const {
     return end_;
 }
 
 template<typename ValueType, class Compare>
-typename  AVLSet<ValueType, Compare>::const_iterator AVLSet<ValueType, Compare>::cend() {
+typename AVLSet<ValueType, Compare>::const_iterator AVLSet<ValueType, Compare>::cend() {
     return cend_;
 }
 
@@ -475,37 +498,27 @@ void AVLSet<ValueType, Compare>::Balance(Item *par, int mode) {
             if (par->right_->balance_ == -1)
                 par = LeftBigRotate(par);
             else par = LeftSmallRotate(par);
-        }
-
-        else if (par->balance_ == -2) {
+        } else if (par->balance_ == -2) {
             if (par->left_->balance_ == 1)
                 par = RightBigRotate(par);
             else par = RightSmallRotate(par);
-        }
-
-        else par = par->parent_;
+        } else par = par->parent_;
     }
 }
 
 template<typename ValueType, class Compare>
-void AVLSet<ValueType, Compare>::BalanceRecalculate(AVLSet<ValueType, Compare>::Item *par){
+void AVLSet<ValueType, Compare>::BalanceRecalculate(AVLSet<ValueType, Compare>::Item *par) {
 
     if (par->left_ == nullptr && par->right_ == nullptr) {
         par->balance_ = 0;
         par->height_ = 1;
-    }
-
-    else if (par->left_ == nullptr) {
+    } else if (par->left_ == nullptr) {
         par->balance_ = par->right_->height_;
         par->height_ = par->right_->height_ + 1;
-    }
-
-    else if (par->right_ == nullptr) {
+    } else if (par->right_ == nullptr) {
         par->balance_ = -1 * par->left_->height_;
         par->height_ = par->left_->height_ + 1;
-    }
-
-    else {
+    } else {
         par->balance_ = par->right_->height_ - par->left_->height_;
         par->height_ = (par->right_->height_ > par->left_->height_ ?
                         par->right_->height_ : par->left_->height_) + 1;
@@ -701,7 +714,7 @@ typename AVLSet<ValueType, Compare>::Item *AVLSet<ValueType, Compare>::RightBigR
 
 int main() {
 
-    cout<<"Enter the number of operations that will be done with AVL tree"<<endl;
+    cout << "Enter the number of operations that will be done with AVL tree" << endl;
     int actions = 0;
     cin >> actions;
 
@@ -715,11 +728,11 @@ int main() {
 
     for (int i = 0; i < actions; i++) {
 
-        cout<<"A [value] - add value\n"
-              "D [value] - delete value\n"
-              "F [value] - find value\n"
-              "Here is the example of command\n"
-              "A 20 - this command adds 20 into the tree  "<< endl << endl;
+        cout << "A [value] - add value\n"
+                "D [value] - delete value\n"
+                "F [value] - find value\n"
+                "Here is the example of command\n"
+                "A 20 - this command adds 20 into the tree  " << endl << endl;
 
         cin >> command;
         cin >> val;
@@ -727,17 +740,13 @@ int main() {
         if (command == 'A') {
             avl.Insert(val);
 
-            cout <<"Root Balance: "<<avl.Root()->balance_ << endl << endl;
-        }
-
-        else if (command == 'D') {
+            cout << "Root Balance: " << avl.Root()->balance_ << endl << endl;
+        } else if (command == 'D') {
             avl.Remove(val);
             if (avl.Root() == nullptr)
-                cout <<"Root Balance: " <<  0 << endl << endl;
-            else cout <<"Root Balance: " << avl.Root()->balance_ << endl << endl;
-        }
-
-        else if (command == 'F') {
+                cout << "Root Balance: " << 0 << endl << endl;
+            else cout << "Root Balance: " << avl.Root()->balance_ << endl << endl;
+        } else if (command == 'F') {
             auto it = avl.Find(val);
             if (it == avl.end() || val != *it)
                 cout << "There is no such value" << endl << endl;
